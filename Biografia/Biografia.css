@@ -1,0 +1,22 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: overline underline;
+    margin-top: 5%;
+}
+.nombre{
+margin-top: 5%;
+}
+.maca{
+
+    margin-top: 5%;
+    font-family: cursive;
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+h1{
+    margin-top: 5%;
+    text-decoration: underline;
+
+}
+.navegacion{
+    cursor: default;
+    
+
+}
