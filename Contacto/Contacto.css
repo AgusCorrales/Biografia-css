@@ -3,4 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    }
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.formulario{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.formulario2{
+    text-decoration: underline;
+}
