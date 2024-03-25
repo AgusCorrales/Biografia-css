@@ -61,6 +61,7 @@ fieldset{
     overflow: hidden;
     margin: 20px;
     transition: 0.3s ease;
+    border: 1px solid white;
 }
 .fotoMarbella:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
@@ -72,6 +73,7 @@ fieldset{
     overflow: hidden;
     margin: 20px;
     transition: 0.3s ease;
+    border: 1px solid white;
 }
 .fotoLisboa:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
@@ -83,6 +85,7 @@ fieldset{
     overflow: hidden;
     margin: 20px;
     transition: 0.3s ease;
+    border: 1px solid white;
 }
 .fotoNieve:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
@@ -94,6 +97,7 @@ fieldset{
     overflow: hidden;
     margin: 20px;
     transition: 0.3s ease;
+    border: 1px solid white;
 }
 .fotoParque:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
@@ -105,6 +109,7 @@ fieldset{
     margin: 20px;
     overflow: hidden;
     transition: 0.3s ease;
+    border: 1px solid white;
 }
 
 .videoNieve::-webkit-media-controls{

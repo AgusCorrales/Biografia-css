@@ -35,7 +35,7 @@
         color: transparent;
         font-size: 8em;
         text-align: center;
-        margin-top: 2%;
+        margin-top: 5%;
     }
     
     .fotoYo{
@@ -46,6 +46,7 @@
         width: 200px;
         overflow: hidden;
         transition: 0.3s ease;
+        border: 1px solid white;
     }
     .fotoYo:hover{
         -webkit-transform:scale(1.3);transform:scale(1.3);
@@ -69,17 +70,27 @@
     }
 
     .yo2{
-        text-align: center;
+        text-align:start;
         margin-right: 13%;
         text-decoration: underline;
         
+        
     }
 
-
     .videoFutbol{
-        margin-left: 46%;
+        margin-left: 30%;
         display: flex;
         flex-direction: column;
+        border: 1px solid black;
+    }
+    
+    .videoFutbol::-webkit-media-controls{
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .videoFutbol:hover::-webkit-media-controls{
+        opacity: 1;
     }
     
     .redes{
@@ -94,6 +105,10 @@
     .redes:hover{
         -webkit-transform:scale(1.3);transform:scale(1.3);
 
+    }
+    
+    fieldset{
+        border-radius: 20%;
     }
     
    
