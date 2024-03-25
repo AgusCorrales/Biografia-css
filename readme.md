@@ -1,1 +1,1 @@
-Mi primer trabajo: Pagiana web basica con trabajo en Html y Css.
+Mi primer trabajo: Pagina web basica con trabajo en Html y Css.
