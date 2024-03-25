@@ -4,3 +4,97 @@
     box-sizing: border-box;
     text-decoration: none;
     }
+    body{
+        background-image:  url(../Imagenes/FotoFondo4.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+    }
+    .navegacion{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }       
+    
+    .navegacion li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    a{
+        color: white;
+    }
+    
+    a:hover {
+        color: grey;
+    }
+  
+    h1{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image: url(../Imagenes/beach.gif);
+        background-clip: text;
+        background-position: center;
+        color: transparent;
+        font-size: 8em;
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    .fotoYo{
+        margin-left: 25px;
+        float: left;
+        margin-right: 10px;
+        height: 220px;
+        width: 200px;
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+    .fotoYo:hover{
+        -webkit-transform:scale(1.3);transform:scale(1.3);
+    }
+
+    .yo1 p {
+        margin-left: 120px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 18%;
+        
+    }
+
+    .yo1::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .yo2{
+        text-align: center;
+        margin-right: 13%;
+        text-decoration: underline;
+        
+    }
+
+
+    .videoFutbol{
+        margin-left: 46%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .redes{
+        width: 30px;
+        height: 30px;
+        display: table;
+        overflow: hidden;
+        transition: 0.3s ease;
+        margin-left: 18%;
+
+    }
+    .redes:hover{
+        -webkit-transform:scale(1.3);transform:scale(1.3);
+
+    }
+    
+   
+    
